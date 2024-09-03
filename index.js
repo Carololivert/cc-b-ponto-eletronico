@@ -5,6 +5,16 @@ const horaMinSeg = document.getElementById("hora-min-seg");
 const btnBaterPonto = document.getElementById("btn-bater-ponto");
 btnBaterPonto.addEventListener("click", register);
 
+const dialogPonto = document.getElementById("dialog-ponto");
+dialogPonto.showModal();
+
+const btnfechar = document.getElementById("btn-fechar");
+
+const btnclose = document.getElementById("btn-fechar");
+btnclose.addEventListener("click", ()=> {
+    btnfechar.closest();
+});
+
 diaSemana.textContent = getWeekDay();
 diaMesAno.textContent = getCurrentDate();
 
