@@ -1,0 +1,84 @@
+body{
+    background-image: url("../Contato31.jpg");
+    background-size: 110%;
+    background-attachment: fixed;
+    
+}
+
+.data-hora {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#btn-dialog-fechar {
+    position: absolute;
+    top: 0;
+    right: 0;s
+}
+
+/* Posicionamento do alerta no topo da página com position fixed */
+#alerta-registro-ponto {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    /* TO-DO: */
+    /* posicionar fora da página */
+    /* pode usar o translate no eixo Y */
+    /* usar um efeito de transição */
+}
+
+#alerta-registro-ponto p {
+    background-color: #bdbdbd;
+    color: #000000;
+    text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* TO-DO: */
+    /* Estilizar */
+}
+
+/* TO-DO: */
+/* Adicionar código CSS para alterar a opacidade */
+.hidden {
+    /* TO-DO: */
+    /* enviar para fora da página */
+    opacity: 0;
+}
+
+.show {
+    /* TO-DO: */
+    /* trazer para dentro da página */
+    opacity: 1;
+}
+
+#btn-bater-ponto {
+    color: #000000;
+    font-size: 60%;
+    background-color: #fbff00;
+    border-color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+#div-btn-bater-ponto {
+    font-size: xx-large;
+    text-align: center;
+    color: #0011fa;
+}
+
+#dialog-ponto {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
